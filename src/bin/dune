@@ -1,0 +1,8 @@
+(executable
+ (package catt)
+ (public_name catt)
+ (name catt)
+ (libraries catt))
+
+(cram
+ (deps %{bin:catt}))
