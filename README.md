@@ -35,14 +35,5 @@ dune build
 
 # Usage
 
-## Illustration with the tutorial
-Usage of catt is illustrated with the file `examples/tutorial.catt`. To run Catt on the file, navigate to the directory `examples` and execute the command
-```shell
-dune exec -- catt base.catt
-```
-**Warning**: Make sure that you open the editor from the terminal pointing at this directory, for your editor to see the correct version of coq that was installed during the first phase.
-
-The file `examples/syntax.catt` gives a demonstration of advanced use of the syntax of catt
-
 ## Experiment and helper script
 The directory `experiment/` contains a subset of source files that we have used to produce our proof artifacts. It also contains a script `run-experiment.sh` that executes on all files in the subdirectory and stores the result in a subdirectory `results/`.
